@@ -1,0 +1,174 @@
+@media screen and (max-width: 1280px) {
+   .container{
+      max-width: 1000px;
+   }
+   .banner .first-half{
+      width: 500px;
+   }
+   .banner .second-half{
+      padding-top: 70px;
+   }
+   .banner .second-half div{
+      width: 500px;
+      padding-left: 145px;
+      justify-content: start;
+   }   
+
+   .contact .first-half div,
+   .contact .second-half{
+      width: 500px;
+   }
+
+   .about-us .container .about-3 iframe{
+      width: 333px;
+      height: 182px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .container{
+      max-width: 900px;
+   }
+   .banner{
+      display: block;
+      background-color: var(--color-accent-2);
+   }
+   .banner div{
+      background-color: transparent;
+      z-index: 0;
+   }
+   .banner .container{
+      padding-top: 70px;
+      display: grid;
+      grid-template-columns: 62% 38%;
+   }
+   .banner .first-half,
+   .banner .second-half,
+   .contact .first-half,
+   .contact .second-half{
+      display: none;
+   }
+
+   .contact{
+      display: block;
+      background-color: var(--color-header);
+   }
+   .contact .container{
+      display: grid;
+      grid-template-columns: 60% 40%;
+      position: relative;
+   }
+   .contact .container .first-half-sm{
+      padding: 25px 25px 25px 0;
+   }
+   .contact .container .second-half-sm{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 37%;
+      padding: 40px;
+      background-color: var(--color-primary-2);
+   }
+
+   .about-us .container .about-1, 
+   .about-us .container .about-2, 
+   .about-us .container .about-3 p {
+      padding: 25px 20px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .banner .container {
+      padding-top: 60px;
+      grid-template-columns: 52% 48%;
+   }
+   
+   .contact .container{
+      grid-template-columns: 55% 45%;
+   }
+   .contact .container .second-half-sm{
+      width: 45%;
+      right: 20px;
+   }
+
+   .about-us .container{
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .about-us .container .about-1,
+   .about-us .container .about-2 {
+      width: 50%;
+      background-color: var(--color-white);
+   }
+   .about-us .container .about-1 {
+      padding-right: 40px;
+   }
+   .about-us .container .about-3{
+      background-color: var(--color-background);
+   }
+   .about-us .container .about-3 iframe {
+      padding-top: 30px;
+      display: block;
+      margin: 0 auto;
+      width: 535px;
+      height: 333px;
+   }
+
+   .offers{
+      padding: 0 20px;
+   }
+   .offers .container {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .offers .container .single-offer-1 a,
+   .offers .container .single-offer-2 a,
+   .offers .container .single-offer-3 a,
+   .offers .container .single-offer-4 a,
+   .offers .container .single-offer-5 a,
+   .offers .container .single-offer-6 a{
+      padding: 30px;
+   }
+}
+@media screen and (max-width: 576px) {
+   .banner .container {
+      display: block;
+      padding-top: 65px;
+   }
+   
+   .contact .container{
+      display: block;
+      padding: 0;
+   }
+   .contact .container .first-half-sm{
+      padding: 25px;
+   }
+   .contact .container .second-half-sm{
+      position: unset;
+      width: 100%;
+      padding: 25px;
+   }
+
+   .about-us .container{
+      display: block;
+   }
+   .about-us .container .about-1,
+   .about-us .container .about-2,
+   .about-us .container .about-3{
+      width: 100%;
+   }
+   .about-us .container .about-1,
+   .about-us .container .about-3{
+      background-color: var(--color-white);
+   }
+   .about-us .container .about-2{
+      background-color: var(--color-background);
+   }
+   .about-us .container .about-3 iframe {
+      width: 100%;
+      height: 240px;
+   }
+
+   .offers .container {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
