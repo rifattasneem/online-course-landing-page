@@ -179,15 +179,12 @@ header{
 }
 
 @media screen and (max-width: 1280px) {
-   .navbar .top-nav .container {
-      padding: 10px 20px;
-   }
    .navbar .center-nav div:first-child, 
    .navbar .bottom-nav .first-half {
       width: 500px;
    }
    .navbar .center-nav div {
-      padding-left: 63px;
+      padding-left: 80px;
    }
 }
 @media screen and (max-width: 1024px) {
@@ -199,7 +196,7 @@ header{
       justify-content: end;
    }
    .navbar .center-nav ul li:last-child {
-      padding-right: 72px;
+      padding-right: 58px;
    }
    .bottom-nav .container{
       display: block;
@@ -218,8 +215,14 @@ header{
    }
 }
 @media screen and (max-width: 768px) {
+   .navbar .top-nav .container {
+      padding: 10px 20px;
+   }
    .navbar .center-nav ul li:last-child {
       padding-right: 20px;
+   }
+   .navbar .bottom-nav .container{
+      padding: 0 20px;
    }
    .nav-links a, .dropdown .dropbtn {
       padding: 14px 20px;

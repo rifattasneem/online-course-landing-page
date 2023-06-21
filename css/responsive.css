@@ -10,7 +10,7 @@
    }
    .banner .second-half div{
       width: 500px;
-      padding-left: 145px;
+      padding-left: 163px;
       justify-content: start;
    }   
 
@@ -62,6 +62,7 @@
       display: grid;
       grid-template-columns: 60% 40%;
       position: relative;
+      padding: 0 20px;
    }
    .contact .container .first-half-sm{
       padding: 25px 25px 25px 0;
@@ -81,12 +82,7 @@
    .about-us .container .about-1, 
    .about-us .container .about-2, 
    .about-us .container .about-3 p,
-   .offers .container .single-offer-1 a,
-   .offers .container .single-offer-2 a,
-   .offers .container .single-offer-3 a,
-   .offers .container .single-offer-4 a,
-   .offers .container .single-offer-5 a,
-   .offers .container .single-offer-6 a,
+   .offers .container a,
    .news-and-blogs .header-sm,
    .news-and-blogs .container .single-news,
    .news-and-blogs .container .single-blog,
@@ -111,6 +107,12 @@
 }
 
 @media screen and (max-width: 768px) {
+   .banner .container,
+   .offers .container,
+   .bottom-links .container,
+   footer .container {
+      padding: 0 20px;
+   }
    .banner .container {
       padding-top: 60px;
       grid-template-columns: 52% 48%;
@@ -149,18 +151,10 @@
       height: 333px;
    }
 
-   .offers{
-      padding: 0 20px;
-   }
    .offers .container {
       grid-template-columns: repeat(2, 1fr);
    }
-   .offers .container .single-offer-1 a,
-   .offers .container .single-offer-2 a,
-   .offers .container .single-offer-3 a,
-   .offers .container .single-offer-4 a,
-   .offers .container .single-offer-5 a,
-   .offers .container .single-offer-6 a{
+   .offers .container a{
       padding: 30px;
    }
 
@@ -183,6 +177,14 @@
    }
    .news-and-blogs .container .videos .single-video iframe {
       padding-top: 0;
+   }
+
+   .bottom-links .container .contact-info div:last-child i {
+      padding: 9px;
+   }
+   .bottom-links .container .contact-info div:last-child p {
+      padding-left: 9px;
+      font-size: 14px;
    }
 }
 @media screen and (max-width: 576px) {
@@ -228,7 +230,12 @@
       height: 240px;
    }
 
-   .offers .container {
+   .offers .container,
+   .bottom-links .container {
       grid-template-columns: repeat(1, 1fr);
+   }
+
+   .bottom-links .container .contact-info div:last-child{
+      margin-top: 20px;
    }
 }

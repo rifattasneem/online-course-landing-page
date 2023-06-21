@@ -26,7 +26,6 @@
    display: grid;
    justify-content: end;
    padding-left: 200px;
-   padding-right: 20px;
 }
 /*--------- Banner ends ----------*/
 
@@ -107,7 +106,6 @@
 .about-us .container{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   padding: 0;
 }
 .about-us .container .about-1,
 .about-us .container .about-2 {
@@ -143,14 +141,8 @@
 .offers .container{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   padding: 0;
 }
-.offers .container .single-offer-1 a,
-.offers .container .single-offer-2 a,
-.offers .container .single-offer-3 a,
-.offers .container .single-offer-4 a,
-.offers .container .single-offer-5 a,
-.offers .container .single-offer-6 a{
+.offers .container a{
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -233,7 +225,6 @@
 .news-and-blogs .container{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   padding: 0;
 }
 .news-and-blogs .header-sm{
    display: none;
@@ -286,3 +277,61 @@
    color: var(--color-header);
 }
 /*--------- News and blogs ends ----------*/
+
+/*--------- Bottom links starts ----------*/
+.bottom-links{
+   padding-top: 50px;
+   background-color: var(--color-primary-1);
+}
+.bottom-links .container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+.bottom-links .container h4{
+   margin-bottom: 15px;
+   color: var(--color-accent-1);
+}
+.bottom-links .container a,
+.bottom-links .container p,
+.bottom-links .container address,
+.bottom-links .container i{
+   color: var(--color-white);
+   text-decoration: none;
+}
+.bottom-links .container .links,
+.bottom-links .container .address{
+   padding-bottom: 50px;
+}
+.bottom-links .container .contact-info{
+   display: grid;
+   align-content: space-between;
+}
+.bottom-links .container .contact-info div:last-child{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   background-color: var(--color-primary-2);
+}
+.bottom-links .container .contact-info div:last-child p{
+   padding-left: 20px;
+   font-size: 18px;
+   font-weight: 600;
+}
+.bottom-links .container .contact-info div:last-child i{
+   padding: 15px;
+   background-color: var(--color-accent-1);
+}
+/*--------- Bottom links ends ----------*/
+
+footer{
+   padding: 20px 0;
+   background-color: var(--color-primary-2);
+}
+footer .container{
+   display: flex;
+   justify-content: space-between;
+   color: var(--color-font);
+}
+footer .container a{
+   color: var(--color-font);
+}
