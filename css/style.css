@@ -130,11 +130,6 @@
    list-style-type: circle;
    list-style-position: inside;
 }
-.about-us .container .about-3 iframe{
-   width: 380px;
-   height: 210px;
-   border: transparent;
-}
 /*--------- About us ends ----------*/
 
 /*--------- Offers starts ----------*/
@@ -250,17 +245,11 @@
    border-right: 1px solid var(--color-background);
 }
 .news-and-blogs .container .single-news,
-.news-and-blogs .container .single-blog,
-.news-and-blogs .container .single-video{
+.news-and-blogs .container .single-blog{
    padding: 30px 40px 20px 40px;
 }
-.news-and-blogs .container .single-video:first-of-type{
-   padding-bottom: 0;
-}
-.news-and-blogs .container .videos .single-video iframe{
-   width: 300px;
-   height: 165px;
-   border: 0;
+.news-and-blogs .container .single-video{
+   padding-bottom: 10px;
 }
 .news-and-blogs .container .single-news h4,
 .news-and-blogs .container .single-blog h4{
