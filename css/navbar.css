@@ -222,7 +222,7 @@ header{
       padding-right: 20px;
    }
    .navbar .bottom-nav .container{
-      padding: 0 20px;
+      padding: 0;
    }
    .nav-links a, .dropdown .dropbtn {
       padding: 14px 20px;
@@ -255,9 +255,6 @@ header{
      display: block;
      width: 100%;
      text-align: left;
-   }
-   .bottom-nav .container{
-      padding: 0;
    }
 }
 
