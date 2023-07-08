@@ -93,13 +93,16 @@
    .news-and-blogs .blog-header h4{
       padding: 20px;
    }
+
+   .bottom-links .container,
+   footer .container {
+      padding: 0 20px;
+   }
 }
 
 @media screen and (max-width: 768px) {
    .banner .container,
-   .offers .container,
-   .bottom-links .container,
-   footer .container {
+   .offers .container {
       padding: 0 20px;
    }
    .banner .container {
