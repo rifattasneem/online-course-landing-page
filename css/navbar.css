@@ -215,6 +215,9 @@ header{
    }
 }
 @media screen and (max-width: 768px) {
+   .navbar {
+      padding: 0;
+   }
    .navbar .top-nav .container {
       padding: 10px 20px;
    }
